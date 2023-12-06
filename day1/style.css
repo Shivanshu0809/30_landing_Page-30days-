@@ -1,0 +1,482 @@
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans;
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.navprt1{
+    display: flex;
+    gap: 40px; 
+}
+.navprt1>img{
+    margin-top: -4%;
+}
+.navprt1>a,.navprt2>a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.navprt2{
+    display: flex;
+    gap: 40px; 
+}
+.navprt2 .nav2Caregiver{
+    color: rgb(6, 218, 6);
+    
+}
+.hamburger{
+    display: none;
+    font-size: 1.8rem;
+    margin-top: 4%;
+}
+@media(max-width:450px){
+    .navprt1>a{
+        display: none;
+    }
+    .navprt2{
+        display: none;
+    }
+}
+
+.heroSection{
+    height: 120vh;
+}
+.heroSecPrt1{
+    /* object-position: center; */
+   position: relative;
+
+    
+}
+.heroSecPrt2{
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.heroSecPrt2 h1{
+    color: #fff;
+    font-size: 4.2rem;
+
+}
+
+.heroSecPrt2 p{
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.heroSecPrt2Elements{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:450px){
+    .heroSection{
+        height:170vh;
+    }
+    .heroSecPrt1>img{
+        height: 55vh;
+    }
+    .heroSecPrt2{
+        flex-direction: column;
+    }
+    .heroSecPrt2Elements>img{
+        width: 400px;
+        margin-left: 2%;
+}
+.heroSecPrt2Elements>h1{
+    font-size: 3rem;
+    margin-left: 2%;
+}
+.heroSecPrt2Elements>p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+}
+}
+@media(max-width:380px){
+    .heroSection{
+        height:160vh;
+    }
+    .heroSecPrt1>img{
+        height: 47vh;
+    }
+    .heroSecPrt2Elements>img{
+        width: 350px;
+        margin-left: 2%;
+}
+.heroSecPrt2Elements>h1{
+    font-size: 2.5rem;
+}
+.heroSecPrt2Elements>p{
+    font-size: 1.2rem;
+}
+
+}
+@media(max-width:340px){
+    .heroSection{
+        height: 150vh;
+    }
+    .heroSecPrt2Elements>img{
+        width: 300px;
+        margin-left: 2%;
+}
+}
+.formSec{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 35%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+.formSec>h3{
+    color: #0000005a;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+    margin-top: 5%;
+}
+.infofield{
+    gap: 10px;
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+}
+.formEle{
+    display: flex;
+}
+.qr{
+    display: flex;
+   align-items: center;
+    
+
+}
+.form>h3{
+    font-size: .9rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 5%;
+}
+.form>::placeholder{
+    color: #0000005a;
+    font-weight: 600;
+
+}
+#detail{
+
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+   
+ 
+    /* border: none; */
+    border: 1px solid rgba(121, 121, 121, 0.374);
+
+}
+.Condition{
+    font-size:.9rem;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: 600;
+    gap: 10px;
+    margin-top: 5%;
+
+}
+.form>button{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(42, 165, 149);
+    margin-top: 5%;
+}
+
+
+.whyPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyPart>h1{
+    font-size: 3rem;
+    color: #00000076;
+    
+}
+.whyelements{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.whyprt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 25%;
+}
+.whyprt>p{
+    font-size: 1.1rem;
+    color: #0000009c;
+    font-weight: bold;
+}
+.lovesection{
+    background-image: url(./images/download\ \(3\).svg);
+    background-repeat: no-repeat;
+    background-size: 150vw 800px;  
+    height: 70vh;
+}
+.lovedogsSection{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.loveDogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.loveDogsPrt1{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    font-size: 1.1rem;
+    gap: 20px;
+    margin-top: 10%;
+}
+.loveDogsPrt1>span{
+    color: rgb(14, 240, 176);
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+.loveDogsPrt1>h1{
+    font-size: 3rem;
+    color: #00000087;
+    font-weight: bold;
+}
+.dogImg{
+    margin-top: 10%;
+}
+
+
+footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    background-color: #000000bf;
+    padding: 2rem;
+
+}
+footer>hr{
+    display: none;
+}
+.part1>p,.part2>a,.part3>a,.part4>a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    color: #fff;
+    text-decoration: none;
+
+}
+.part1>p{
+    margin-left: 10%;
+}
+.part1>h1,.part2>h1,.part3>h1,.part4>h1{
+    color: #fff;
+    margin-top: 5%;
+    font-size: 1.4rem;
+}
+hr{
+    width: 100%;
+    background-color: #0000005a;
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 2rem;
+    background-color: #000000d6;
+    padding: 1rem;
+    
+}
+.socialmedia>a{
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+    background-color: #000000a7;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+@media(max-width:450px){
+    .hamburger{
+        display: block;
+    }
+    .formSec{
+        width: 95%;
+        margin-top: 12%;
+        margin-left: 2%;
+        padding: 30px;
+    }
+    #detail{
+
+        width: 80%;
+        padding: 8px;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+    .whyPart>h1{
+        font-size: 1.5rem;
+    }
+    .whyprt{
+        gap: 10px;
+        width: 40%;
+    }
+    .whyprt>img{
+        width:80px
+    }
+    .whyprt>h2{
+        font-size: 1.2rem;
+    }
+    .whyprt>p{
+        font-size: .6rem;
+    }
+    .loveDogs{
+        flex-direction: column;
+    }
+    .loveDogsPrt1{
+        /* flex-direction: row; */
+        width: 100%;
+    }
+    .loveDogsPrt1>h1 br{
+        display: none;
+    }
+    .lovesection{
+        height: 120vh;
+    }
+    .dogImg>img{
+        width: 350px;
+        margin-top: -10%;
+    }
+    footer{
+        flex-wrap: wrap;
+        
+    }
+    .part2,.part3,.part4{
+        margin-top: 5%;
+    }
+    .part1>p{
+        align-items: center;
+        margin-left: -5%;
+    }
+    .socialmedia{
+        font-size: 1.5rem;
+        padding: .8rem;
+    }
+    .copyright{
+        font-size: 1rem;
+        padding: .8rem;
+    }
+    .part1>h1,.part2>h1,.part3>h1,.part4>h1{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:380px){
+    .formSec{
+        padding: 20px;
+    }
+  
+    #detail{
+
+        width: 80%;
+        padding: 8px;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+    .loveDogsPrt1>h1{
+        font-size: 2rem;
+    }
+    footer{
+        padding: 10px;
+    }
+}
+@media(max-width:340px){
+    .dogImg>img{
+        width: 300px;
+        margin-top: -10%;
+    }
+    .whyprt{
+        gap: 10px;
+        width: 40%;
+        margin-left: -3%;
+    }
+    .whyprt>img{
+        width:50px
+    }
+    .whyprt>h2{
+        font-size: 1rem;
+    }
+    footer{
+        padding: 10px;
+        justify-content: left;
+    }
+    footer>hr{
+        display: block;
+       
+        
+    }
+    footer>.hr{
+       height: 1.5px;
+       background-color: #908c8c5a;
+       border: none;
+
+    }
+    .socialmedia{
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+    .copyright{
+        font-size: .8rem;
+        padding: .5rem;
+    }
+    #detail{
+
+        width: 80%;
+        padding: 8px;
+        font-size: .8rem;
+        border-radius: 6px;
+    }
+    .formSec>h3{
+        font-size: .9rem;
+    }
+    .form>h3{
+        font-size: .7rem;
+    }
+    .whyelements{
+        gap: 15px;
+    }
+}
