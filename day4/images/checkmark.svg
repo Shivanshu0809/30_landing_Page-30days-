@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Round-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-TEMPLATE-Wave-Overlay-Laptop" transform="translate(-179.000000, -774.000000)">
+            <g id="Group-8" transform="translate(179.000000, 666.000000)">
+                <g id="checkmark" transform="translate(0.000000, 108.000000)">
+                    <circle id="Oval" fill="#00BDA5" cx="12" cy="12" r="12"></circle>
+                    <path d="M17.7273303,7.24415988 L10.1586425,14.9878337 L6.39031674,11.1329408 C6.0721267,10.8073942 5.55683258,10.8073942 5.23864253,11.1329408 C4.92045249,11.4584873 4.92045249,11.9856948 5.23864253,12.3112414 L9.58253394,16.7555623 C9.74162896,16.9183356 9.95013575,17 10.1586425,17 C10.3666063,17 10.5751131,16.9183356 10.7342081,16.7555623 L18.8790045,8.42246049 C19.1971946,8.09691397 19.1971946,7.5697064 18.8790045,7.24415988 C18.5608145,6.91861337 18.0455204,6.91861337 17.7273303,7.24415988" id="Icons/Utilities/Success" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
