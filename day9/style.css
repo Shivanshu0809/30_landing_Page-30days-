@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans,sans-serif;
+  
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 5px black;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+   
+
+}
+.navprt1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+
+}
+.navprt1>a{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    font-weight: 520;
+}
+.navprt2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.navprt2>a{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.navprt2>i{
+    font-size: 1.3rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5%;
+}
+.categories{
+    display: flex;
+    gap: 30px;
+    margin-left: 2%;
+
+}
+.categories>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #999696;
+    
+}
+.categories>.cate{
+    color: black;
+}
+.categories>.Rele{
+    color: orangered;
+}
+.categories>a input{
+   width:40px;
+   height: 20px;
+}
+.hero>h1{
+    margin-left: 2%;
+    font-size: 2.2rem;
+}
+.moblieSec{
+    display: flex;
+    justify-content: space-evenly;
+  
+   
+
+}
+.mobCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    padding: 3rem 2rem;
+    background-color: rgb(251, 250, 249);
+    margin-top: 3%;
+   
+}
+.mobCard>h1{
+    font-size: 1.7rem;
+}
+.MiHypercharge>h1{
+    line-height: 15px;
+}
+.mobCard>p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.mobCard>p span{
+    font-size: 1rem;
+    color: #aca9a9;
+    font-weight: normal;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.button{
+    display: flex;
+    gap: 20px;
+}
+.button>button{
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(173, 173, 173);
+}
+.button>.button2{
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+.mobCard>span{
+    font-size: .8rem;
+}
+.mobsec2{
+    margin-top: -4%;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.933);
+    margin-top: 2%;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part>p{
+    font-weight: bold;
+    color: #fff;
+}
+.part>a{
+    text-decoration: none;
+    color: #999696;
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.social>p{
+    font-weight: 600;
+    color: #fff;
+}
+.social>input{
+    padding: 1rem;
+    font-size: 1rem;
+    width: 26vw;
+    border-radius: 10px;
+    border: 1px solid rgb(246, 242, 242);
+    background-color: transparent;
+    color: #999696;
+    outline-color: orangered;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: 1.8rem;
+   
+    color: #999696;
+
+}
+.storeApp{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 250, 250);
+    padding: 1rem;
+    border-radius: 10px ;
+}
+.storeApp>hr{
+    margin-top: 5%;
+    background-color: #fff;
+}
+.mistore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mistore>div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mistore>div span{
+    color: #999696;
+}
+.mistore>div p{
+    color: #fff;
+    font-weight: bold;
+}
+.mistore>img{
+    border-radius: 10px;
+}
+.playstore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2%;
+   
+
+}
+.playstore>p{
+    font-weight: bold;
+    color: #fff;
+}
+.subfooter{
+    margin-top: 0%;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+.subfooter>p{
+    color: #fff;
+    font-weight: bold;
+    
+}
