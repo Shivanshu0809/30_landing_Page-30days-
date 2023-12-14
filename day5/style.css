@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans,sans-serif;
+    
+}
+.background{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-image: url(./images/8HkO.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    z-index: -10;
+}
+.herosec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  
+    
+}
+.herosec>img{
+    position: absolute;
+    left: 70px;
+    width: 15vw;
+
+}
+.cardprt{
+    margin-top: 10%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    
+}
+.cardprt>p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: aliceblue;
+    width: 28%;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+   margin-top: -15%;
+ 
+
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blankField{
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.485);
+}
+.button{
+    justify-content: center;display: flex;
+    margin-top: 15%;
+}
+.button>button{
+   width: 100%;
+   padding: 1rem ;
+   font-size: 1rem;
+   border-radius: 20px;
+   border: none;
+   background-color: rgba(247, 131, 15, 0.834);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 8%;
+}
+.tips{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.tips>h1{
+    font-size: 2rem;
+    color:rgba(0, 0, 0, 0.367);
+}
+.tips>p{
+    font-size: 1.1rem;
+    color:rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    line-height: 25px;
+}
+.tips>a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(15, 139, 206);
+    
+}
+.tips>a:hover{
+    text-decoration: none;
+}
+.sec2{
+    position: relative;
+    margin-top: 10%;
+    background-color: rgba(230, 228, 228, 0.658);
+    padding: 2rem;
+}
+.mobimg{
+    margin-left: 5%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 280px;
+
+}
+.mobimgPoster{
+    width: 122px;
+    height: 255px;
+    top: 52%;
+    left: 15.2%;
+    border-radius: 10px;
+}
+.ipadimg{
+    margin-left: 20%;
+}
+.laptopimg{
+    position: absolute;
+    left: 31%;
+    top: 18%;
+}
+.laptopScreenPoster{
+    left: 38.7%;
+    top: 28.3%;
+    border-radius: 5px;
+    height: 342px;
+    width: 550px;
+}
+
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.part1>img{
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 10%;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.part2>h1{
+    font-size: 1.8rem;
+    color:rgba(0, 0, 0, 0.705);
+}
+.customerReview,.customername{
+    display: flex;
+    gap: 20px;
+}
+.customerReview>img{
+    width: 30px;
+    height: 20px;
+   
+
+}
+.customerReview>p{
+    font-size: 1.1rem;
+    color:rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+}
+.customername>h1{
+    color:rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+}
+.part2>button{
+    align-self: flex-start;
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: rgba(241, 144, 33, 0.896);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px ;
+    margin-top: 2%;
+
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 50px;
+    background-color: rgb(231, 227, 227);
+    padding: 5rem; 
+}
+.sec4>h1{
+    margin-left: 10%;
+    font-size: 2rem;
+    color: rgb(97, 95, 95);
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(69, 147, 175);
+   justify-content: space-evenly;
+   padding: 2rem;
+}
+footer>img{
+    width: 200px;
+}
+footer>p{
+    font-size: 1.01rem;
+    color: #fff;
+    font-weight: bold;
+}
+footer .socialMedia{
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
