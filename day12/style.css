@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans,sans-serif;
+    
+}
+section{
+    background-image: url(./images/fee50a_8d5c6f21a5d14b919d4be75bd07b5337~mv2_d_3840_12495_s_3_2.jpg);
+    height: 1200vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-size:100% 1200vh;
+    padding: 2rem 0;
+    position: relative;
+
+}
+section>h1{
+    font-size: 2.5rem;
+    color: #fff;
+margin-left: 5%;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ margin-top: 12%;
+ gap: 25px;
+ text-align: center;
+
+}
+.heading>h1{
+    font-size: 7rem;
+    color: #fff;
+}
+.heading>button{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color: rgb(9, 98, 193);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+.heading>.button:hover{
+    background-color: #fff;
+    color: rgb(41, 80, 208);
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+}
+.part>h1{
+    font-size: 6rem;
+}
+.part>p{
+    font-size: 1.8rem;
+}
+.part>button{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color: rgb(9, 98, 193);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.part>.button:hover{
+    background-color: #4095e5;
+    color: rgb(250, 250, 250);
+}
+.part2{
+    /* position: absolute; */
+    top: 43%;
+    left: 60%;
+    gap: 20px;
+}
+.part3{
+    top: 58%;
+}
+.part4{
+    top: 75%;
+    left: 60%;
+}
+.part5{
+   top: 90%;
+   align-items: center;
+   left: 15%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 2rem;
+   
+}
+.firstprt{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.policysec{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+}
+.policy{
+    display: flex;
+    gap: 20px;
+}
