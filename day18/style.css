@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans,sans-serif;
+    background-color: black;
+    
+    color: #fff;
+
+    
+}
+.herosection{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.leftprt>img{
+   
+    width: 350px;
+}
+.rytprt{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.rytprt>h1{
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: rgb(229, 228, 228);
+}
+.rytprt>p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.rytprt>.buttons{
+    display: flex;
+    flex-direction: column;gap: 10px;
+}
+
+.buttons>a button{
+    padding: .7rem;
+    width: 20vw;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.buttons>a .googlebtn{
+    color: rgb(74, 73, 73);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.googlebtn>img{
+    background-color: #fff;
+}
+
+.buttons>a .applebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.applebtn>img{
+    background-color: #fff;
+}
+.rytprt>.hr{
+    width: 62%;
+    margin-top: -3%;
+    /* position: relative; */
+}
+.rytprt>.or{
+    position:absolute;
+    top:54%;
+    left: 62%;
+    font-size: .9rem;
+    border-radius: 50px;
+    padding: .5rem;
+    font-weight: 400;
+}
+.createbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -2%;
+   
+}
+.createbtn>a button{
+    padding: .7rem;
+    width: 20vw;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(0, 128, 255);color: rgb(255, 243, 243);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.createbtn>p{
+    font-size: .68rem;
+    color: rgb(204, 203, 203);
+}
+.createbtn>p span{
+    color: rgb(63, 179, 225);
+}
+.signinbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.signinbtn>a button{
+    width: 20vw;
+    padding: .7rem;
+    border:1px solid rgb(150, 147, 147);
+    border-radius: 50px;
+    color: rgb(41, 175, 228);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.signinbtn>a button:hover{
+    background-color: rgba(135, 207, 235, 0.097);
+}
+@media(max-width:430px){
+    *{
+        background-color:transparent;
+    }
+    .herosection{
+        flex-direction: column;
+        margin-top: 0%;
+        padding: 1rem;
+        background: linear-gradient(to right, #434343 0%, black 100%);
+      
+    }
+    .leftprt>img{
+        width: 50px;
+    
+    }
+    .rytprt>h1{
+        font-size: 3rem;
+        margin-top: 2%;
+    }
+    .buttons>a button{
+        width: 100%;
+    }
+    .rytprt>.hr{
+        width: 100%;
+    }
+    .rytprt>.or{
+        top: 60%;
+        left:46%;
+        background-color: #555555;
+        padding: .3rem;
+        font-size: .7rem;
+
+        }
+    .createbtn>a button{
+        width: 100%;
+    }
+    .signinbtn>a button{
+        width: 100%;
+    }
+}
+@media(max-width:380px){
+    .rytprt>h1{
+        font-size: 2.5rem;
+        margin-top: 3%;
+    }
+    .rytprt>.or{
+        top: 58.8%;
+        left:46%
+    }
+
+}
+@media(max-width:325px){
+    .rytprt{
+        padding: 1rem;
+    }
+    .rytprt>h1{
+        font-size: 2rem;
+    }
+    .rytprt>p{
+        font-size: 1.5rem;
+    }
+    .rytprt>.or{
+        top: 58.8%;
+        left:46%
+    }
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.upperprt{
+    display: flex;
+    gap: 15px;
+}
+.upperprt>a{
+    font-size:.8rem ;
+    text-decoration: none;
+    color: #8e8e8e;
+}
+.upperprt>a:hover{
+    text-decoration: underline;
+}
+.lowerprt{
+    display: flex;
+    gap: 10px;
+    font-size: .8rem;
+}
+.lowerprt>a{
+    text-decoration: none;
+    color: #8e8e8e;
+}
+.lowerprt>a:hover{
+    text-decoration: underline;
+}
+.lowerprt>p{
+    color: #8e8e8e;
+}
+.lowerprt>p span{
+    color: rgb(32, 142, 186);
+}
+@media(max-width:430px){
+    .upperprt{
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: center;
+        background: linear-gradient(to right, #434343 0%, black 100%);
+        
+    }
+    footer{
+    
+            background: linear-gradient(to right, #434343 0%, black 100%);
+            margin-bottom: 0%;
+            margin-top: 0%;
+            padding: 1rem;
+       
+    }
+}
