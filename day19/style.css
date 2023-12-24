@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans,sans-serif;    
+}
+.herosec{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.leftprt{
+    position: relative;
+}
+.scimg{
+    position: absolute;
+   left: 33.7%;
+   top: 8%;
+}
+.leftprt>img{
+    height: 630px;
+    width: 460px;
+}
+.rytprt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    border: 1px solid rgba(163, 160, 160, 0.427);
+    padding: 2rem 2.5rem;
+    margin-top: 5%;
+    
+}
+
+form>.textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textarea>input{
+    width: 17vw;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid rgba(138, 136, 136, 0.538);
+    background-color: rgba(173, 193, 202, 0.099);
+}
+.textarea>input::placeholder{
+    font-size: .72rem;
+}
+
+form>input{
+    width: 100%;
+    padding: .5rem;
+    background-color: rgb(5, 179, 248);
+    border: none;
+    border-radius: 5px ;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+   
+}
+form>hr{
+    width: 100%;
+}
+form>.or{
+    position: absolute;
+    top: 44.2%;
+    background-color: #fff;
+    padding: .2rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: rgb(106, 104, 104);
+
+}
+form>a{
+    text-decoration: none;
+    color: rgba(9, 51, 134, 0.947);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;align-items: center;
+    gap: 6px;
+}
+form>p{
+    font-size: .8rem;
+    color: rgb(14, 14, 148);
+}
+@media(max-width:770px){
+    form>.or{
+        top: 36%;
+    }
+    .leftprt>img{
+        height: 430px;
+        width: 300px;
+    }
+    .scimg>img{
+        width: 170px;
+        height: 373px;
+    }
+    .scimg{
+        position: absolute;
+       left: 21.7%;
+       top: 3.8%;
+    }
+    .textarea>input{
+        width:32vw;
+    }
+
+}
+@media(max-width:430px){
+    .leftprt{
+        display: none;
+    }
+    .scimg{
+        display: none;
+    }
+    form{
+        border: none;
+        padding: 2rem 0rem;
+    }
+    .textarea>input{
+        width: 60vw;
+    }
+    form>.or{
+        top: 46%;
+        padding: .5rem;
+    }
+}
+@media(max-width:380px){
+    .textarea>input{
+        width: 66vw;
+    }
+    form>.or{
+        font-size: .8rem;
+    }
+}
+.signup{
+    border: 1px solid rgba(163, 160, 160, 0.427);
+    padding: 1.5rem 4rem;
+    
+}
+.signup>p{
+    font-size: .9rem;
+    font-weight: 600;
+}
+.signup>p a{
+    text-decoration: none;
+    color: rgb(5, 142, 197);
+    font-weight: bold;
+    
+}
+.getapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.getapp>p{
+    font-size: .9rem;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.upperprt{
+    display: flex;
+    gap: 11px;
+}
+.upperprt>a{
+    text-decoration: none;
+    font-size: .75rem;
+    color: rgb(82, 81, 81);
+    font-weight: 600;
+}
+.lowerprt{
+    display: flex;
+    gap: 10px;
+    font-size: .75rem;
+    color: rgb(82, 81, 81);
+    font-weight: 600;
+}
+.lowerprt>a{
+    color: rgb(82, 81, 81);
+    text-decoration: none;
+}
+@media(max-width:770px){
+    .signup{
+        border: 1px solid rgba(163, 160, 160, 0.427);
+        padding: 1.5rem 3.5rem;
+        
+    }
+    footer{
+        padding: 2rem;
+        margin-top: 5%;
+    }
+    .upperprt{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .upperprt>a{
+        font-size: 1rem;
+    }
+    .lowerprt{
+        font-size: 1rem;
+    }
+}
+@media(max-width:430px){
+    .signup{
+        border: none;
+    }
+    footer{
+        padding: 1rem;
+        margin-top: 8%;
+    }
+    .upperprt{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .upperprt>a{
+        font-size: .8rem;
+    }
+    .lowerprt{
+        font-size: .8rem;
+    }
+}
+@media(max-width:380px){
+    .signup>p{
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .lowerprt{
+        font-size: .6rem;
+    }
+    .upperprt>a{
+        font-size: .6rem;
+    }
+}
