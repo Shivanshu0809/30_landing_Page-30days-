@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: public sans,sans-serif;
+}
+.hero>video{
+    width: 100%;    
+}
+.santa{
+    position: absolute;
+    top: 0%;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+ /* left: 70%; */
+ animation: santa 10s infinite;
+ animation-timing-function:linear;
+ animation-play-state:running;
+ 
+}
+
+@keyframes santa{
+            0%{
+                left: 0%;
+            }
+            20%{
+                left: 30%;
+            }
+            40%{
+                left: 50%;
+            
+            }
+            60%{
+                left: 70%;
+            }
+           
+        }
+        .text{
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            color: #fff;
+            display: flex;
+            gap: 45px;
+            background-color: transparent;
+            z-index: 10;
+           
+        }
+        .text>p{
+            background-color: transparent;
+            font-size:5.5rem;
+            font-weight: bold;
+           
+        }
+        .text>.l{
+            animation: marry 8s infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+        @keyframes marry{
+           0%{
+            margin:0%;
+            color: red;
+            text-shadow: 2px 2px 50px rgb(225, 12, 12);
+           }
+           50%{
+           margin: 10%;
+           }
+           80%{
+            margin: 20%;
+           }
+           100%{
+        
+          margin: 30%;
+          color: green;
+          text-shadow: 2px 2px 50px rgb(31, 188, 11);
+          
+           }
+        }
+        .textchris{
+            position: absolute;
+            color: #fff;
+            top: 55%;
+            right: 20%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 1;
+            background-color: transparent;
+        }
+            
+    
+        .textchris>p{
+            font-size: 6.7rem;
+            font-weight: bold;
+            background-color: transparent;
+           
+        }
+        .textchris>.t{
+            animation:chris 8s infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+
+        }
+     
+       @keyframes chris{
+       0%{
+        margin-top: 0%;
+        color: green;
+        text-shadow: 2px 2px 50px rgb(31, 188, 11);
+       }
+       50%{
+        margin-top: 10%;
+        }
+        80%{
+         margin-top: 20%;
+        }
+        100%{
+     
+         margin-top: 30%;
+         color: red;
+         text-shadow: 2px 2px 50px rgb(225, 12, 12);
+       
+        }
+        
+
+       }
+       .circle{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        background-color: transparent;
+       }
+       .circle>.circle1{
+        background-color: transparent;
+        width: 500px;
+        height: 500px;
+        border-radius: 300px;
+        border: 5px solid red;
+        box-shadow: 0px 0px 50px rgb(86, 246, 17);
+        animation: circle 8s infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+
+
+       }
+       @keyframes circle{
+       0%{
+        rotate: 360deg;
+        scale: 80%;
+       }
+       50%{
+        box-shadow: 0px 0px 50px rgb(247, 251, 246);
+        scale: 120%;
+       }
+       100%{
+        box-shadow: 0px 0px 50px rgb(247, 251, 246);
+        scale: 140%;
+       }
+       }
+
+       .credit{
+        position: absolute;
+        top: 115%;
+        left: 45%;
+        color: #fff;
+        background-color: transparent;
+       }
+       .credit>p{
+        background-color: transparent;
+        text-shadow: 5px 5px 15px white;
+        font-weight: bold;
+        font-size: 1.2rem;
+       }
