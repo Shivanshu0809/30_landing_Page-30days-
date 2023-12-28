@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background-color: #F7EFED;
+    font-family: public sans,sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+.navprt1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: logo 5s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes logo{
+    0%{
+        margin-left: -5%;
+    }
+    50%{
+        margin-left: -1%;
+    }
+    100%{
+        margin-left: 5%;
+    }
+}
+.navprt2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navprt2>select{
+    padding: .2rem .5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.navprt2>select option{
+    background-color: #323131;
+    color: #fff;
+    
+}
+.navprt2>a button{
+    padding: .5rem .8rem;
+    border-radius: 5px;
+}
+.navprt2>a .signbtn{
+    background-color: blue;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+.navprt2>a .loginbtn{
+    background-color: #F7EFED;
+    font-weight: 600;
+    color: #525050;
+    border: 1px solid rgba(113, 113, 113, 0.748);
+}
+#hamburger{
+    display: none;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.heroprt1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.heroprt1>h1{
+    font-size: 5rem;
+}
+.heroprt1>p{
+    font-size:1.5rem ;
+    font-weight: 600;
+    color: #323131;
+}
+.heroprt1>button{
+    padding: .8rem;
+    width: 15vw;
+    background: linear-gradient(69.8deg, rgb(25, 49, 108) 2.8%, rgb(1, 179, 201) 97.8%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.heroprt1>button:hover{
+    background: linear-gradient(109.5deg, rgb(24, 175, 231) 11.2%, rgb(67, 82, 186) 74.6%);
+
+}
+.dwnldApp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dwnldApp>p{
+    font-weight: bold;
+    color: #323131;
+}
+.getApp{
+    display: flex;
+    gap: 15px;
+}
+@media(max-width:430px){
+    #hamburger{
+        display: block;
+    }
+    .nav{
+        padding: 1rem 1rem;
+
+    }
+    .navprt1>img{
+        width: 150px;
+    }
+    .navprt1>.logo{
+        width: 30px;
+    }
+   .navprt2{
+    display: none;
+   }
+   .hero{
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 50px;
+   }
+   .heroprt2>img{
+    width: 85vw;
+   }
+   .heroprt1>h1{
+    font-size: 2.4rem;
+}
+.heroprt1>h1 br{
+    display: none;
+}
+.heroprt1>p{
+    font-size: 1rem;
+}
+.heroprt1>p br{
+    display: none;
+}
+.heroprt1>button{
+    width: 100%;
+    padding: .5rem;
+}
+
+.dwnldApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+}
+@media(max-width:325px){
+    .heroprt2>img{
+        width: 300px;
+       }
+       .heroprt1>h1{
+        font-size: 2rem;
+    }
+
+
+}
