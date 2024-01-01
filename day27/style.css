@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,600;0,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans,sans-serif;
+    background-color: #302C42;
+    color: #fff;
+   
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+.nav>.navprt1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navprt1>img{
+    width: 4vw;
+}
+.nav>.navprt2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav>.navprt2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+.nav>.navprt2 a:hover{
+    color: #8b7bd3;
+    font-weight: 600;
+}
+.nav>.navprt3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navprt3>button{
+    text-transform: uppercase;
+    padding: .8rem 1.2rem;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    z-index: 10;
+    position: relative;
+}
+.navprt3>.join{
+color: black;
+    background:linear-gradient(#8176AF,#aeb7cf) ;
+    border: none;
+    z-index: 10;
+    position: relative;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+}
+.heroupperPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heroupperPart>.heroRytprt1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heroRytprt1>h1{
+    font-size: 2.5rem;
+}
+.heroRytprt1>h1 span{
+    color:#8176AF;
+}
+.heroRytprt1>p{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.heroRytprt1>.Herobutton{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+
+}
+.heroRytprt1>.Herobutton button{
+    padding: .8rem 1.2rem;
+    background:linear-gradient(#8176AF,#aeb7cf) ;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+
+}
+.heroRytprt1>.Herobutton img{
+    animation: arrow .5s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+}
+@keyframes arrow{
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 2.5%;
+    }
+    100%{
+        margin-left:5%;
+    }
+}
+.heroupperPart>.herolftprt img{
+    width: 25vw;
+    margin-left: -20%;
+    z-index: 10;
+    position: relative;
+    background: transparent;
+
+}
+
+
+.hero>.herobottomprt{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px #8176AF;
+    padding: 1rem;
+    border-radius: 50px;
+    background: radial-gradient(#3A3456, #302C42);
+    margin-top: 5%;
+    z-index: 10;
+    position: relative;
+}
+.herobottomprt>.detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+}
+.detail>.description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: transparent;
+    
+}
+.detail>img{
+    background: transparent;
+
+}
+.detail>.description h3{
+    font-size: 1rem;
+    background: transparent;
+
+}
+.detail>.description p{
+    font-size:.8rem ;
+    background: transparent;
+
+}
+.hero>.vector>img{
+    position: absolute;
+  
+
+}
+
+.vector>.vector1{
+    top: 10%;
+    background: transparent;
+    right: 10%;
+    width: 18vw;
+    z-index: 1;
+    animation: vectorstrip 20s infinite;
+    animation-timing-function: linear;
+}
+@keyframes vectorstrip{
+    0%{
+        rotate: 0deg
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+.vector>.vector2{
+    top: 5%;
+    right: 10%;
+    background: transparent;
+    width: 13vw;
+    rotate: -10deg;
+    animation: vectorstrip2 20s infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes vectorstrip2{
+    0%{
+        rotate: 0deg
+    }
+    50%{
+        rotate: -180deg;
+    }
+    100%{
+        rotate: -360deg;
+    }
+}
+.vector>.vector3{
+    top:30%;
+    background: transparent;
+    right:2%;
+    width: 35vw;
+}
+.vector>.vector4{
+    top: 22%;
+    left: 0;
+    background: transparent;
+    width: 14vw;
+    z-index: 1;
+}
